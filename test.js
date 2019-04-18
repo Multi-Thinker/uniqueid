@@ -3,7 +3,7 @@ var old_time = new Date();
 let howMany = 10000;
 let rec = [];
 for(let i = 0; i<=howMany; i++){
-	rec.push(uniqueid());
+	uniqueid().then((id) => rec.push(id));
 }
 function findDuplicate(arr) {
   var sorted_arr = arr.slice(0);
