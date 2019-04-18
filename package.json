@@ -1,0 +1,33 @@
+{
+  "name": "idunique",
+  "version": "1.0.1",
+  "description": "Generates unique id",
+  "main": "uniqueid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multi-Thinker/uniqueid.git"
+  },
+  "keywords": [
+    "unique",
+    "identifier",
+    "str",
+    "text",
+    "id",
+    "uniq",
+    "random",
+    "unique",
+    "id",
+    "uuid",
+    "guid",
+    "uid"
+  ],
+  "author": "Talha Habib <talha@codeot.com> (http://codeot.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Multi-Thinker/uniqueid/issues"
+  },
+  "homepage": "https://github.com/Multi-Thinker/uniqueid#readme"
+}
