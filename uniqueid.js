@@ -1,0 +1,1 @@
+module.exports=(a="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",b=16)=>{let c=a.split(""),d=[];for(let e,f=0;f<b;f++)e=c[Math.floor(Math.random()*c.length)],d.push(e);return d.join("")};
