@@ -10,7 +10,7 @@ the first parameter of `uniqueid(character,length)` has default value of non-acc
 ## How to
 
 #### Installation
-``npm i uniqueid``
+``npm i idunique``
 #### functionality
 No additional configuration needed, simply call ``uniqueid()``  or the variable you declared for the package as ``function`` adding ``()`` with it. 
 ```javascript
