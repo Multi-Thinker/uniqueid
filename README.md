@@ -5,7 +5,7 @@ A simple tiny npm package to generate custom length unique id
 
 # How it works
 
-the first parameter of `idunique(character,length)` has default value of non-accented English alphabet small and upper case with 0-9 numeric, the loop generate a string picking a random index, this can be modified to have special characters, the test results shows it take about 2 millisecond to generate 10 unique ids with zero match and 24 ms for 10,000 unique ids with zero match. 
+the first parameter of `idunique(character,length)` has default value of non-accented English alphabet small and upper case with 0-9 numeric, the loop generates a string picking random indexes. This can be modified to have special characters, the test results shows it take about 2 millisecond to generate 10 unique ids with zero match and 24 ms for 10,000 unique ids with zero match. 
 
 **the return type is ``Promise``**
 
